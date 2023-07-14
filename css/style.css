@@ -136,6 +136,16 @@ img {
         max-width: 768px;
         width: 100%;
     }
+    
+}
+
+@media screen and (max-width:480px) {
+
+    .container {
+        max-width: 480px;
+        width: 100%;
+    }
+
     .row{
         flex-direction: column;
         justify-self: center;
@@ -155,18 +165,8 @@ img {
         padding: 3rem 0;
         margin: 0;
     }
-    .why-us h2{
-        font-size: 3rem;
-    }
-}
-
-@media screen and (max-width:480px) {
-
-    .container {
-        max-width: 480px;
-        width: 100%;
-        /* display: flex;
-          flex-wrap: wrap; */
-    }
-
+    h2.text-center {
+        width: 80%;
+        margin: auto;
+        padding-bottom: 3rem;
 }
